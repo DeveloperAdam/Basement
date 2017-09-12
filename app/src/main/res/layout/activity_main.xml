@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.adamnoor.basement.MainActivity">
+    <Button
+        android:layout_width="190dp"
+        android:layout_height="50dp"
+        android:text="SIGN UP"
+        android:background="#F5F5F5"
+        android:id="@+id/btnSignUp"
+        android:padding="5dp"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/btnSignIN" />
+    <Button
+        android:layout_width="190dp"
+        android:layout_height="50dp"
+        android:text="SIGN IN"
+        android:background="#F5F5F5"
+        android:id="@+id/btnSignIN"
+        android:padding="5dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="Username"
+        android:textSize="20dp"
+        android:drawableLeft="@drawable/people"
+        android:id="@+id/etUsername"
+        android:drawablePadding="24dp"
+        android:background="@drawable/et_design"
+        android:layout_below="@+id/btnSignUp"
+        android:layout_alignStart="@+id/etEmail"
+        android:layout_marginTop="10dp" />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="Email"
+        android:id="@+id/etEmail"
+        android:drawableLeft="@drawable/email"
+        android:drawablePadding="15dp"
+        android:background="@drawable/et_design"
+        android:layout_below="@+id/etUsername"
+        android:layout_alignStart="@+id/etPassword"
+        android:layout_marginTop="10dp" />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="Password"
+        android:id="@+id/etPassword"
+        android:background="@drawable/et_design"
+        android:drawableLeft="@drawable/password"
+        android:drawablePadding="15dp"
+        android:layout_below="@+id/etEmail"
+        android:layout_alignStart="@+id/etCPassword"
+        android:layout_marginTop="10dp" />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="Confirm Password"
+        android:background="@drawable/et_design"
+        android:id="@+id/etCPassword"
+        android:drawableLeft="@drawable/password"
+        android:drawablePadding="15dp"
+        android:layout_below="@+id/etPassword"
+        android:layout_alignStart="@+id/btnRegister"
+        android:layout_marginTop="10dp" />
+<Button
+    android:layout_width="300dp"
+    android:layout_height="50dp"
+    android:text="SIGN UP"
+    android:id="@+id/btnRegister"
+    android:layout_marginBottom="13dp"
+    android:background="#4CAF50"
+    android:textColor="#ffffff"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
