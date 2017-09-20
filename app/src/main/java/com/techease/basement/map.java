@@ -1,4 +1,4 @@
-package com.example.adamnoor.basement;
+package com.techease.basement;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -17,7 +17,7 @@ import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 
-import static com.example.adamnoor.basement.R.layout.promptscreen;
+import static com.techease.basement.R.layout.promptscreen;
 
 public class map extends AppCompatActivity implements OnMapReadyCallback  {
 

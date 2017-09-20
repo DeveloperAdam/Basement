@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.example.adamnoor.basement.DummyText"
+    tools:context="com.techease.adamnoor.basement.DummyText"
     tools:showIn="@layout/activity_dummy_text">
 
     <TextView

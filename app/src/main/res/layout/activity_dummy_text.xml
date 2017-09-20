@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="com.example.adamnoor.basement.DummyText">
+    tools:context="com.techease.adamnoor.basement.DummyText">
 
     <android.support.design.widget.AppBarLayout
         android:id="@+id/app_bar"

@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FFFFFF"
-    tools:context="com.example.adamnoor.basement.MainActivity">
+    tools:context="com.techease.adamnoor.basement.MainActivity">
     <TextView
         android:layout_width="match_parent"
         android:layout_height="120dp"

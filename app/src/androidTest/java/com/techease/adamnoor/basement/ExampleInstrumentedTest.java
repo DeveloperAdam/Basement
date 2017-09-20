@@ -1,4 +1,4 @@
-package com.example.adamnoor.basement;
+package com.techease.adamnoor.basement;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

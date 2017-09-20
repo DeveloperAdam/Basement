@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#eee"
-    tools:context="com.example.adamnoor.basement.Notifications">
+    tools:context="com.techease.adamnoor.basement.Notifications">
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
