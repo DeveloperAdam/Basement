@@ -3,80 +3,155 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
     tools:context="com.example.adamnoor.basement.MainActivity">
-    <Button
-        android:layout_width="190dp"
-        android:layout_height="50dp"
-        android:text="SIGN UP"
-        android:background="#F5F5F5"
-        android:id="@+id/btnSignUp"
-        android:padding="5dp"
-        android:layout_alignParentTop="true"
-        android:layout_toStartOf="@+id/btnSignIN" />
-    <Button
-        android:layout_width="190dp"
-        android:layout_height="50dp"
-        android:text="SIGN IN"
-        android:background="#F5F5F5"
-        android:id="@+id/btnSignIN"
-        android:padding="5dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:id="@+id/tvLogo"
+        android:text="LOGO"
+        android:textSize="30dp"
+        android:background="#EEEEEE"
+        android:gravity="center"
+      />
 
+    <LinearLayout
+        android:layout_width="380dp"
+        android:layout_height="45dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:id="@+id/linearLayout"
+        android:layout_below="@+id/tvLogo"
+        android:layout_marginBottom="10dp"
+        android:layout_centerHorizontal="true">
+        <Button
+            android:id="@+id/btnSignUp"
+            android:layout_width="200dp"
+            android:layout_height="45dp"
+            android:background="#ffffff"
+            android:padding="5dp"
+            android:text="SIGN UP"
+            android:layout_below="@+id/imageView"
+            android:layout_alignParentStart="true" />
+
+        <View
+            android:id="@+id/seperator_grey"
+            android:layout_width="1dp"
+            android:layout_height="45dp"
+            android:background="#EEEEEE" />
+
+        <Button
+            android:id="@+id/btnSignIN"
+            android:layout_width="200dp"
+            android:layout_height="45dp"
+            android:layout_alignBaseline="@+id/btnSignUp"
+            android:layout_alignBottom="@+id/btnSignUp"
+            android:layout_alignParentEnd="true"
+            android:background="#EEEEEE"
+            android:padding="5dp"
+            android:text="SIGN IN" />
+
+    </LinearLayout>
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="185dp">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
     <EditText
-        android:layout_width="300dp"
-        android:layout_height="50dp"
+        android:layout_width="280dp"
+        android:layout_height="45dp"
         android:hint="Username"
-        android:textSize="20dp"
-        android:drawableLeft="@drawable/people"
+        android:drawableLeft="@drawable/profilepic"
         android:id="@+id/etUsername"
-        android:drawablePadding="24dp"
+        android:drawablePadding="15dp"
+        android:padding="5dp"
         android:background="@drawable/et_design"
-        android:layout_below="@+id/btnSignUp"
-        android:layout_alignStart="@+id/etEmail"
-        android:layout_marginTop="10dp" />
+        />
     <EditText
-        android:layout_width="300dp"
-        android:layout_height="50dp"
-        android:hint="Email"
         android:id="@+id/etEmail"
+        android:layout_width="280dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/et_design"
         android:drawableLeft="@drawable/email"
         android:drawablePadding="15dp"
-        android:background="@drawable/et_design"
-        android:layout_below="@+id/etUsername"
-        android:layout_alignStart="@+id/etPassword"
-        android:layout_marginTop="10dp" />
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:padding="5dp"
+        android:layout_marginTop="15dp"
+        />
+    <LinearLayout
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+
+            android:layout_width="280dp"
+            android:layout_height="45dp"
+            android:hint="Pick your date of birth"
+            android:padding="5dp"
+            android:background="#eee"
+            android:drawableLeft="@drawable/dob"
+            android:id="@+id/date"
+            android:drawablePadding="15dp"
+            />
+
+    </LinearLayout>
     <EditText
-        android:layout_width="300dp"
-        android:layout_height="50dp"
+        android:layout_width="280dp"
+        android:layout_height="45dp"
         android:hint="Password"
         android:id="@+id/etPassword"
         android:background="@drawable/et_design"
         android:drawableLeft="@drawable/password"
         android:drawablePadding="15dp"
-        android:layout_below="@+id/etEmail"
-        android:layout_alignStart="@+id/etCPassword"
-        android:layout_marginTop="10dp" />
+        android:padding="5dp"
+        android:inputType="textPassword"
+        android:layout_marginTop="15dp"/>
     <EditText
-        android:layout_width="300dp"
-        android:layout_height="50dp"
+        android:layout_width="280dp"
+        android:layout_height="45dp"
         android:hint="Confirm Password"
         android:background="@drawable/et_design"
         android:id="@+id/etCPassword"
         android:drawableLeft="@drawable/password"
         android:drawablePadding="15dp"
-        android:layout_below="@+id/etPassword"
-        android:layout_alignStart="@+id/btnRegister"
-        android:layout_marginTop="10dp" />
-<Button
-    android:layout_width="300dp"
-    android:layout_height="50dp"
-    android:text="SIGN UP"
-    android:id="@+id/btnRegister"
-    android:layout_marginBottom="13dp"
-    android:background="#4CAF50"
-    android:textColor="#ffffff"
-    android:layout_alignParentBottom="true"
-    android:layout_centerHorizontal="true" />
+        android:padding="5dp"
+        android:inputType="textPassword"
+        android:layout_marginTop="15dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="1dp"
+        >
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tvTerms"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:text="Read Terms and Conditions?"/>
 
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:background="#4CAF50"
+        android:text="SIGN UP"
+        android:textColor="#ffffff"
+        android:layout_marginTop="1dp"/>
+</LinearLayout>
+  </ScrollView>
 </RelativeLayout>

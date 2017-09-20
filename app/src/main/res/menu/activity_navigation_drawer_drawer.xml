@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/g1"
+        android:checkableBehavior="single"
+        android:enabled="true">
+        <item
+            android:id="@+id/Terms"
+            android:icon="@drawable/tc"
+            android:title="Terms and Conditions" />
+    </group>
+    <group android:id="@+id/g2"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/Map"
+            android:icon="@drawable/loc"
+            android:title="Map" />
+    </group>
+    <group android:id="@+id/g3"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/Inbox"
+            android:icon="@drawable/inbox"
+            android:title="Inbox" />
+    </group>
+    <group android:id="@+id/g4"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/Notifications"
+            android:icon="@drawable/notif"
+            android:title="Notifications" />
+    </group>
+    <group android:id="@+id/g5"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/Logout"
+            android:icon="@drawable/logout"
+            android:title="Logout" />
+
+    </group>
+
+</menu>
