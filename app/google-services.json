@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "310184801785",
+    "firebase_url": "https://basement-74b77.firebaseio.com",
+    "project_id": "basement-74b77",
+    "storage_bucket": "basement-74b77.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:310184801785:android:8a435e18b568bdf0",
+        "android_client_info": {
+          "package_name": "com.techease.basement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "310184801785-kts8io7k20eo29a55ru9fmh6bd6l5pg8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfunh-g6Rva42T9o0VRxcE4fympheVY-w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
