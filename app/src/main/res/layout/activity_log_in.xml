@@ -15,6 +15,16 @@
         android:textSize="30dp"
         android:gravity="center"
         />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="200dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="1"
+            android:gravity="center">
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -47,15 +57,16 @@
         android:padding="10dp"
         android:layout_above="@+id/btnLogIn"
         android:layout_alignStart="@+id/etUsernameLogIn"
-        android:layout_marginBottom="32dp" />
+        android:layout_marginBottom="15dp" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Forgot Password?"
         android:textColor="#fff"
         android:layout_above="@+id/btnLogIn"
-        android:layout_alignEnd="@+id/etPasswordLogIn"
-        android:layout_marginBottom="12dp" />
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="100dp"
+         />
     <Button
         android:layout_width="300dp"
         android:layout_height="wrap_content"
@@ -63,9 +74,8 @@
         android:text="LET'S START"
         android:background="#4CAF50"
         android:textColor="#ffffff"
-        android:layout_marginBottom="47dp"
-        android:layout_above="@+id/textView2"
-        android:layout_alignStart="@+id/etPasswordLogIn" />
+        android:layout_marginBottom="20dp"
+       />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -73,7 +83,7 @@
         android:textColor="#ffffff"
         android:layout_above="@+id/btnSignUpLIscreen"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="11dp"
+        android:layout_marginBottom="20dp"
         android:id="@+id/textView2" />
     <Button
         android:layout_width="270dp"
@@ -84,5 +94,7 @@
         android:text="Sign Up"
         android:textColor="#ffffff"
         android:background="@drawable/btndesign"
-        android:layout_marginBottom="11dp" />
+        android:layout_marginBottom="15dp" />
+        </LinearLayout>
+    </ScrollView>
 </RelativeLayout>

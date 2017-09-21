@@ -10,6 +10,7 @@
          location permissions for the 'MyLocation' functionality. 
     -->
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
 
     <application
         android:allowBackup="true"
@@ -19,17 +20,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar">
-        <activity android:name="com.techease.basement.MainActivity">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.techease.basement.LogIn" />
+        <activity android:name=".LogIn" />
         <activity
-            android:name="com.techease.basement.map"
-            android:parentActivityName="com.techease.basement.LogIn"
+            android:name=".map"
+            android:parentActivityName=".LogIn"
             android:theme="@style/AppTheme">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -45,24 +46,24 @@
         -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="@string/google_maps_key" />
+            android:value="AIzaSyBz7cePD-I60so4oFBy2i3dKsMzNdMVXbM" />
 
         <activity
-            android:name="com.techease.basement.NavigationDrawer"
+            android:name=".NavigationDrawer"
             android:label="@string/title_activity_navigation_drawer"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.techease.basement.DummyText"
+            android:name=".DummyText"
             android:label="@string/title_activity_dummy_text"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.techease.basement.Chatting"
+            android:name=".Chatting"
             android:theme="@style/AppTheme" />
         <activity
-            android:name="com.techease.basement.MyInbox"
+            android:name=".MyInbox"
             android:theme="@style/AppTheme" />
         <activity
-            android:name="com.techease.basement.Notifications"
+            android:name=".Notifications"
             android:theme="@style/AppTheme" />
     </application>
 

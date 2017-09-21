@@ -1,32 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context="com.techease.adamnoor.basement.map">
-    <!--<android.support.v7.widget.Toolbar-->
-        <!--xmlns:android="http://schemas.android.com/apk/res/android"-->
-        <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:minHeight="?attr/actionBarSize"-->
-        <!--android:background="?attr/colorPrimary"-->
-        <!--app:theme="@style/ThemeOverlay.AppCompat.Light" >-->
-    <!--</android.support.v7.widget.Toolbar>-->
-    <View
-        android:id="@+id/seperator_grey"
-        android:layout_width="match_parent"
-        android:layout_height="1sp"
-        android:background="#E0E0E0" />
-    <SearchView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/svMap"
-        android:iconifiedByDefault="false"
-        android:queryHint="Search Here"
-        />
+    tools:context="com.techease.adamnoor.basement.mapActivity">
 
     <fragment xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:map="http://schemas.android.com/apk/res-auto"
@@ -38,4 +16,4 @@
         tools:context="com.techease.adamnoor.basement.mapActivity"
         />
 
-</LinearLayout>
+</RelativeLayout>

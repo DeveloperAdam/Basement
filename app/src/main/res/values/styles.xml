@@ -11,7 +11,8 @@
         <item name="android:icon">@mipmap/ic_launcher</item>
     </style>
 
-    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar"></style>
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+    </style>
 
 
     <style name="MyActionBar" parent="@style/Widget.AppCompat.ActionBar.Solid">
